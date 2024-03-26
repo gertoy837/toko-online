@@ -1,0 +1,25 @@
+header > h1 {
+  float: left;
+}
+
+nav {
+  padding-bottom: 100px;
+}
+
+nav > ul {
+  list-style: none;
+  float: right;
+}
+
+nav > ul > li {
+  float: left;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+}
+
+.App {
+  margin: 0px 75px;
+}
