@@ -1,6 +1,9 @@
 /* small screen */
 .content {
     margin: 30px 35px;
+}
+
+.main {
     display: flex;
     flex-wrap: wrap;
 }
@@ -10,6 +13,9 @@
 @media screen and (min-width: 768px) {
     .content {
         margin: 40px 15px;
+    }
+
+    .main {
         display: flex;
         flex-wrap: wrap;
     }
