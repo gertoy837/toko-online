@@ -9,7 +9,7 @@ function Products(props) {
       </div>
       <div className="card-body">
         <h4>{nama}</h4>
-        <p>Harga : {harga}</p>
+        <p>Harga : Rp. {harga}.-</p>
         <p>Berat : {berat}</p>
         <p>Terjual : {terjual}</p>
         <button>Beli</button>

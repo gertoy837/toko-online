@@ -22,12 +22,13 @@
 
 .card-body h4 {
     margin: 0;
-    margin-top: 10px;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 20px;
 }
 
 .card-body p {
     margin: 5px 0;
-    margin-bottom: 20px;
 }
 
 .card-body > button {
@@ -38,6 +39,7 @@
     margin:  0 29%;
     color: #fff;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 .card-body > button:hover {
