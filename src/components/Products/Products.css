@@ -6,9 +6,12 @@
     margin-bottom: 30px;
 }
 
-.card > img {
+.card-header > img {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    height: 190px;
+    width: 190px;
+    background-image: cover;
 }
 
 .card-body {
