@@ -1,0 +1,17 @@
+/* small screen */
+.content {
+    margin: 30px 35px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* medium screen */
+@media screen and (min-width: 768px) {
+    .content {
+        margin: 40px 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+

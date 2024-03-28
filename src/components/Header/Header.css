@@ -1,0 +1,63 @@
+/* Small Screen */
+header {
+  background-color: rgb(26, 24, 24);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 20px;
+  padding: 20px;
+}
+
+nav {
+  display: none;
+}
+
+/* Medium Screen */
+
+@media screen and (min-width: 768px) {
+  header {
+    background-color: rgb(26, 24, 24);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header > h1 {
+    margin: 20px;
+    margin-left: 70px;
+  }
+
+  nav {
+    display: contents;
+  }
+
+  nav > ul {
+    list-style: none;
+    display: flex;
+    padding-right: 70px;
+  }
+
+  nav > ul > li {
+    padding: 0 30px;
+    font-weight: bold;
+  }
+
+  nav > ul > li:last-child {
+    margin-bottom: 0;
+  }
+
+  nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+  }
+
+  nav > ul > li > a:hover {
+    color: chartreuse;
+  }
+}
